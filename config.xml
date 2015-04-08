@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<widget id="com.ionicframework.ioncordova769531" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+  <name>ionCordova</name>
+  <description>
+        An Ionic Framework and Cordova project.
+    </description>
+  <author email="hi@ionicframework" href="http://ionicframework.com/">
+      Ionic Framework Team
+    </author>
+  <content src="index.html"/>
+  <access origin="*"/>
+  <preference name="webviewbounce" value="false"/>
+  <preference name="UIWebViewBounce" value="false"/>
+  <preference name="DisallowOverscroll" value="true"/>
+  <preference name="BackupWebStorage" value="none"/>
+  <feature name="StatusBar">
+    <param name="ios-package" value="CDVStatusBar" onload="true"/>
+  </feature>
+
+  <cdv:plugin name="org.apache.cordova.device" />
+  <cdv:plugin name="org.apache.cordova.battery-status" />
+  <cdv:plugin name="org.apache.cordova.camera" />
+  <cdv:plugin name="org.apache.cordova.device-motion" />
+  <cdv:plugin name="de.appplant.cordova.plugin.local-notification" />
+  <cdv:plugin name="org.apache.cordova.network-information" />
+  <cdv:plugin name="hu.dpal.phonegap.plugins.pindialog" />
+  <cdv:plugin name="nl.xservices.plugins.SocialSharing" />
+  <cdv:plugin name="com.brodysoft.sqliteplugin" />
+  <cdv:plugin name="nl.x-services.plugins.toast" />
+  <cdv:plugin name="org.apache.cordova.vibration" />
+
+
+
+
+</widget>
